@@ -1,1 +1,1 @@
-# ethan-portfolio-starterSQ Portfolio 2023
+SQ Portfolio 2023
