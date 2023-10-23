@@ -14,7 +14,7 @@ const Header = () => {
       <div className='flex flex-col lg:flex-row justify-between items-center gap-y-6 py-8'>
         {/* logo */}
         <Link href={'/'}>
-          <Image src={'/'} width={220} height={48} alt='' priority={false}></Image>
+          <Image src={'/greenTech.svg'} width={60} height={20} alt='' priority={false}></Image>
         </Link>
         {/* socials */}
         <Socials />

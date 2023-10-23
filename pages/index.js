@@ -26,7 +26,7 @@ const Home = () => {
             exit='hidden'
             className="h1"
           >
-            Transforming Ideas <br /> Into <span className="text-amber-300">Digital Reality</span>
+            Crafting the Fututre<br /> with <span className="text-amber-300">AI Elegance</span>
           </motion.h1>
           {/* subtitle */}
           <motion.p 
@@ -36,7 +36,7 @@ const Home = () => {
             exit='hidden'
             className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
           >
-            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+            In an era where innovation intersects with tradition, our commitment is to harness the profound capabilities of AI to illuminate the path to progress. Through strategic algorithms and intricate data analysis, we not only adapt to the evolving digital landscape but also sculpt its future, ensuring that our partners always remain at the forefront of technological advancement.
           </motion.p>
           {/* btn */}
           <div className="flex justify-center xl:hidden relative">
