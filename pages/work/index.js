@@ -21,7 +21,7 @@ const Work = () => {
             exit="hidden" 
             className='h2 xl:mt-12'
           >
-            My work <span className='text-accent'>.</span>
+            My work <span className='text-accent'></span>
           </motion.h2>
           <motion.p 
             variants={fadeIn('up', 0.4)}
@@ -30,7 +30,7 @@ const Work = () => {
             exit="hidden" 
             className='mb-4 max-w-[400px] mx-auto lg:mx-0'
           >
-            fsa asdff sadf asf 
+            Just a taste of what I can do 
           </motion.p>
         </div>
         <motion.div 

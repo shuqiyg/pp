@@ -8,6 +8,9 @@ import {
   FaReact,
   FaWordpress,
   FaFigma,
+  FaJava,
+  FaPython,
+  FaNodeJs,
 } from "react-icons/fa";
 
 import {
@@ -46,11 +49,11 @@ const aboutData = [
     info: [
       {
         title: 'Webby Awards - Honoree',
-        stage: '2011 - 2012',
+        stage: '2020 - 2021',
       },
       {
         title: 'Adobe Design Achievement Awards - Finalist',
-        stage: '2009 - 2010',
+        stage: '2021 - 2022',
       },
     ],
   },
@@ -58,16 +61,16 @@ const aboutData = [
     title: 'experience',
     info: [
       {
-        title: 'UX/UI Designer - XYZ Company',
-        stage: '2012 - 2023',
+        title: 'Software Developer - XYZ Company',
+        stage: '2018 - 2023',
       },
       {
         title: 'Web Developer - ABC Agency',
-        stage: '2010 - 2012',
+        stage: '2018 - 2023',
       },
       {
-        title: 'Intern - DEF Corporation',
-        stage: '2008 - 2010',
+        title: 'DevOps Intern - DEF Corporation',
+        stage: '2017 - 2020',
       },
     ],
   },
@@ -75,16 +78,16 @@ const aboutData = [
     title: 'credentials',
     info: [
       {
-        title: 'Web Development - ABC University, LA, CA',
-        stage: '2011',
+        title: 'Finance - Beijing Normal University, Beijing, China',
+        stage: '2015',
       },
       {
-        title: 'Computer Science Diploma - AV Technical Institute',
-        stage: '2009',
+        title: 'Computer Science Diploma - Seneca College, Toronto, ON',
+        stage: '2020',
       },
       {
-        title: 'Certified Graphic Designer - ABC Institute, Los Angeles, CA',
-        stage: '2006',
+        title: 'Accounting - George Brown College, Toronto, ON',
+        stage: '2018',
       },
     ],
   },
@@ -120,15 +123,15 @@ const About = () => {
       <div className='container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6'>
         {/* text */}
         <div className='flex-1 flex flex-col justify-center'>
-          <motion.h2
+          <motion.h3
             variants={fadeIn('right', .2)}
             initial='hidden'
             animate='show'
             exit='hidden'
             className='h2'
           >
-            Captivating <span className='text-accent'>stories</span> birth magnificent designs.
-          </motion.h2>
+            My Name is  <span className='text-accent'>Shuqi Yang</span>
+          </motion.h3>
           <motion.p 
             variants={fadeIn('right', .2)}
             initial='hidden'
@@ -136,8 +139,7 @@ const About = () => {
             exit='hidden'
             className='max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0'
           >
-            10 years ago..........fsafsa sadf sd
-            a fsafsa f
+            I'm a Software Developer dedicated to exploring the potential of AI
           </motion.p>
           {/* counters */}
           <motion.div 
@@ -151,7 +153,7 @@ const About = () => {
               {/* experience */}
               <div className='relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0'>
                 <div className='text-2xl xl:text-4xl font-extrabold text-accent mb-2'>
-                  <Countup start={0} end={10} duration={5}></Countup>+
+                  <Countup start={0} end={8} duration={5}></Countup>+
                 </div>
                 <div className='text-xs uppercase tracking-[1px] leading-[1.] max-w-[120px]'>
                   Years of Exp
@@ -160,7 +162,7 @@ const About = () => {
               {/* clients */}
               <div className='relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0'>
                 <div className='text-2xl xl:text-4xl font-extrabold text-accent mb-2'>
-                  <Countup start={0} end={300} duration={5}></Countup>+
+                  <Countup start={0} end={200} duration={5}></Countup>+
                 </div>
                 <div className='text-xs uppercase tracking-[1px] leading-[1.4] max-w-[120px]'>
                   Statisfied clients
@@ -169,7 +171,7 @@ const About = () => {
               {/* Projects */}
               <div className='relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0'>
                 <div className='text-2xl xl:text-4xl font-extrabold text-accent mb-2'>
-                  <Countup start={0} end={650} duration={5}></Countup>+
+                  <Countup start={0} end={300} duration={5}></Countup>+
                 </div>
                 <div className='text-xs uppercase tracking-[1px] leading-[1.4] max-w-[120px]'>
                   Finished Projects
@@ -178,7 +180,7 @@ const About = () => {
               {/* awards */}
               <div className='relative flex-1'>
                 <div className='text-2xl xl:text-4xl font-extrabold text-accent mb-2'>
-                  <Countup start={0} end={8} duration={5}></Countup>+
+                  <Countup start={0} end={6} duration={5}></Countup>+
                 </div>
                 <div className='text-xs uppercase tracking-[1px] leading-[1.4] max-w-[120px]'>
                   Winning Awards

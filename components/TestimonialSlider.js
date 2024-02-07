@@ -21,24 +21,24 @@ import Image from 'next/image';
 export const testimonialSliders = [
   {
     image: '/t-avt-1.png',
-    name: 'Anne Smith',
+    name: 'Luka Doncic',
     position: 'Customer',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      'This software has significantly streamlined our workflow, saving us hours of work every week!',
   },
   {
     image: '/t-avt-2.png',
-    name: 'Jane Doe',
+    name: 'Tyrese Haliburton',
     position: 'Customer',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      'Incredibly intuitive and user-friendly - it has transformed the way we manage our projects.',
   },
   {
     image: '/t-avt-3.png',
-    name: 'Jhon Doe',
+    name: 'Scottie Barnes',
     position: 'Customer',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      "The customer support is outstanding, and the product's reliability has exceeded our expectations.",
   },
 ];
 
