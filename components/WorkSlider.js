@@ -5,19 +5,19 @@ export const workSlides = {
       images: [
         {
           title: 'title',
-          path: '/thumb1.jpg',
+          path: '/projects/imdbclone.png',
         },
         {
           title: 'title',
-          path: '/thumb2.jpg',
+          path: '/projects/liveScore.png',
         },
         {
           title: 'title',
-          path: '/thumb3.jpg',
+          path: '/projects/prompthero.png',
         },
         {
           title: 'title',
-          path: '/thumb4.jpg',
+          path: '/projects/freneticar.png',
         },
       ],
     },
@@ -25,19 +25,19 @@ export const workSlides = {
       images: [
         {
           title: 'title',
-          path: '/thumb4.jpg',
+          path: '/projects/freneticar.png',
         },
         {
           title: 'title',
-          path: '/thumb1.jpg',
+          path: '/projects/chatbox.png',
         },
         {
           title: 'title',
-          path: '/thumb2.jpg',
+          path: '/projects/liveScore.png',
         },
         {
           title: 'title',
-          path: '/thumb3.jpg',
+          path: '/projects/Luka22-23.png',
         },
       ],
     },
@@ -84,7 +84,7 @@ const WorkSlider = () => {
                     >
                       <div className='flex items-center justify-center relative overflow-hidden group'>
                         {/* image */}
-                        <Image src={image.path} width={500} height={300} alt=""/>
+                        <Image src={image.path} width={400} height={300} alt=""/>
                         {/* overlay gradient */}
                         <div className='absolute inset-0 bg-gradient-to-l from-transparent via-[#e323cd] to-[#4a22bd] opacity-0 group-hover:opacity-80 transition-all duration-700'></div>
                         {/* titles */}

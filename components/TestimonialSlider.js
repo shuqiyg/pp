@@ -20,21 +20,21 @@ import Image from 'next/image';
 // testimonial data
 export const testimonialSliders = [
   {
-    image: '/t-avt-1.png',
-    name: 'Luka Doncic',
+    image: '/avatars/a6.png',
+    name: 'Vanessa Carney',
     position: 'Customer',
     message:
       'This software has significantly streamlined our workflow, saving us hours of work every week!',
   },
   {
-    image: '/t-avt-2.png',
-    name: 'Tyrese Haliburton',
+    image: '/avatars/a5.png',
+    name: 'Rebecca Stewart',
     position: 'Customer',
     message:
       'Incredibly intuitive and user-friendly - it has transformed the way we manage our projects.',
   },
   {
-    image: '/t-avt-3.png',
+    image: '/avatars/a4.png',
     name: 'Scottie Barnes',
     position: 'Customer',
     message:
